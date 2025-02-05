@@ -5,33 +5,6 @@
     text-align: center;
 }
 
-.custom-box {
-    background-color: red; 
-    color: white; 
-    padding: 5px 10px; 
-    border-radius: 5px; 
-    display: inline-block; 
-    margin-bottom: 5px; 
-}
-
-.custom-box-blue {
-    background-color: blue; 
-    color: white; 
-    padding: 5px 10px; 
-    border-radius: 5px; 
-    display: inline-block; 
-    margin-bottom: 5px; 
-}
-
-.custom-box-gray {
-    background-color: gray;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    display: inline-block;
-    margin-bottom: 5px;
-}
-
 .video-container {
     height: 100%;
 }
