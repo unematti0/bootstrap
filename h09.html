@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="et">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="h07.css">
+
+    <title>h09</title>
+</head>
+
+<body>
+    <div class="container">
+        <h3>Kasutajad</h3>
+        <input class="btn btn-success mt-3 mb-3" type="submit" value="+Lisa uus">
+        <form class="form-inline float-right mt-3 mb-3">
+            <input class="form-control" type="search" placeholder="Otsi" aria-label="Otsi">
+            <input class="btn btn-success" type="submit" value="Otsi">
+        </form>
+        <table class="table table-striped table-hover table-sm">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">pilt</th>
+                    <th scope="col">nimi</th>
+                    <th scope="col">email</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td><img class="rounded-circle mb-3 mt-3" alt="karu2" src="karu2.jpg" width="50" height="50"></td>
+                    <td>Kopter</td>
+                    <td>heli@kopter.ee</td>
+                    <td><input class="btn btn-warning mt-3" type="submit" value="Muuda"></td>
+                    <td><input class="btn btn-danger mt-3" type="submit" value="Kustuta"></td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td><img class="rounded-circle mb-3 mt-3" alt="karu2" src="karu2.jpg" width="50" height="50"></td>
+                    <td>Nuga</td>
+                    <td>anna@nuga.com</td>
+                    <td><input class="btn btn-warning mt-3" type="submit" value="Muuda"></td>
+                    <td><input class="btn btn-danger mt-3" type="submit" value="Kustuta"></td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td><img class="rounded-circle mb-3 mt-3" alt="karu2" src="karu2.jpg" width="50" height="50"></td>
+                    <td>Tard</td>
+                    <td>imre@tard.eu</td>
+                    <td><input class="btn btn-warning mt-3" type="submit" value="Muuda"></td>
+                    <td><input class="btn btn-danger mt-3" type="submit" value="Kustuta"></td>
+                </tr>
+
+                <tr>
+                    <th scope="row">4</th>
+                    <td><img class="rounded-circle mb-3 mt-3" alt="karu2" src="karu2.jpg" width="50" height="50"></td>
+                    <td>Tard</td>
+                    <td>imre@tard.eu</td>
+                    <td><input class="btn btn-warning mt-3" type="submit" value="Muuda"></td>
+                    <td><input class="btn btn-danger mt-3" type="submit" value="Kustuta"></td>
+                </tr>
+            </tbody>
+        </table>
+        <nav>
+            <ul class="pagination justify-content-center">
+              <li class="page-item"><a class="page-link" href="#">eelmine</a></li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">järgmine</a></li>
+            </ul>
+          </nav>
+    </div>
+  
+</body>
+
+</html>
