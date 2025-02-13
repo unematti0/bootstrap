@@ -12,12 +12,15 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="jumbotron">
-            <h1 class="display-1">Jumbotron</h1>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-        </div>
-        <div class="card-deck">
+
+<div class="container">
+    <div class="jumbotron jumbotron-fluid">
+        <h1 class="display-4">Fluid jumbotron</h1>
+        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-4">
             <div class="card">
                 <img class="card-img-top" src="must_kukk.jpg" alt="people">
                 <div class="card-body">
@@ -33,6 +36,8 @@
                     <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
                 </div>
             </div>
+        </div>
+        <div class="col-md-4">
             <div class="card">
                 <img class="card-img-top" src="must_kukk.jpg" alt="people">
                 <div class="card-body">
@@ -48,9 +53,11 @@
                     <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
                 </div>
             </div>
+        </div>
+        <div class="col-md-4">
             <div class="card">
-                <div class="embed-responsive embed-responsive-16by9 video-container">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MyCvTSjkD74"
+                <div class="ratio ratio-4x3">
+                    <iframe src="https://www.youtube.com/embed/MyCvTSjkD74"
                         title="👩🏼‍💻 What is Bootstrap? / Beginner CSS Framework"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -69,6 +76,7 @@
             </div>
         </div>
     </div>
-</body>
+</div>
 
+</body>
 </html>
